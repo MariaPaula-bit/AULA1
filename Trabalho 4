@@ -1,0 +1,18 @@
+Python é uma linguagem de alto nível, interpretada e muito popular devido à sua sintaxe simples e legibilidade. É amplamente utilizada para desenvolvimento web, análise de dados, automação e mais.
+print("Olá, amigo!")
+JavaScript é uma linguagem de programação essencial para o desenvolvimento web, usada principalmente para criar interatividade em páginas da web. É interpretada e executada no navegador
+console.log("Olá, Mundo!");
+C é uma linguagem de programação de baixo nível que é amplamente usada para sistemas e desenvolvimento de software onde a performance é crucial. É uma linguagem compilada.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olá, amigo!</title>
+</head>
+<body>
+    <script>
+        console.log("Olá, amigo!");
+    </script>
+</body>
+</html>
+Essas diferenças refletem como cada linguagem pode ser mais adequada para diferentes tipos de projetos e necessidades. Python é ótimo para desenvolvimento rápido e fácil, JavaScript é essencial para a web e C é ideal para tarefas que exigem alta performance e controle próximo ao hardware.
+
