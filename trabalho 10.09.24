@@ -1,0 +1,31 @@
+def bubble_sort(arr):
+    n = len(arr)
+    # Percorrer todos os elementos da lista
+    for i in range(n):
+        # A última i posições já estão na ordem correta
+        for j in range(0, n-i-1):
+            # Trocar se o elemento encontrado for maior do que o próximo
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+
+# Exemplo de uso
+lista = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(lista)
+print("Lista ordenada:", lista)
+
+def extrair_vogais(palavra):
+    # Definindo um conjunto de vogais
+    vogais = "aeiouAEIOU"
+    resultado = ""
+    
+    # Percorrer cada caractere da palavra
+    for caractere in palavra:
+        if caractere in vogais:
+            resultado += caractere
+    
+    return resultado
+
+# Exemplo de uso
+texto = "Olá, como você está?"
+vogais = extrair_vogais(texto)
+print("Vogais extraídas:", vogais)
